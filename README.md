@@ -1,6 +1,12 @@
 # Brain Opto-fMRI Decoding Using Graph Neural Networks
 > Opto-fmri decoding of locus coeruleus firing patterns using Graph Neural Networks and the BrainGNN framework. The code is comprehensively commented and is a good example to understand how [BrainGNN](https://github.com/xxlya/BrainGNN_Pytorch) works and how to visualize the salient ROIs.
 
+# Contents
+* [Introduction](#Introduction)
+* [Methods](#Methods)
+* [Results and Discussion](#Results-and-Discussion)
+
+
 # Introduction
 The noradrenaline (NA) circuit holds significant importance in the brain, and its regulation is governed by the Locus Coeruleus (LC), a nucleus in the brainstem. Despite its significance, the impact of the activation pattern of the LC on circuit regulation remains underexplored. A deeper understanding of this aspect could pave the way for the development of techniques in the biomedical field. In this study, data from [[1]](#1) was utilized to investigate how opto-fMRI experiments, involving tonic or burst-like stimulations (3Hz and 15Hz) of the LC in mice, lead to distinct modulations of brain activity. Graph Neural Networks using the BrainGNN framework were used to identify the brain regions that best discriminate between the two stimuli.
 
